@@ -11,10 +11,10 @@ const Header = () => {
   return (
     <header>
       <div className='flex items-center bg-amazon_blue p-1 flex-grow py-2'>
-        <div className='flex mt-2 items-center flex-grow sm:flex-row-0'>
+        <div className='flex mt-2 ml-2 items-center flex-grow sm:flex-row-0'>
           <Image
-            src='https://dev3027public.s3.amazonaws.com/amazon_clone/amazon-white.webp'
-            alt='amazon logo'
+            src='https://dev3027public.s3.amazonaws.com/amazon_clone/eru-logo.webp'
+            alt='erudition logo'
             width={150}
             height={40}
             objectFit='contain'
@@ -53,15 +53,15 @@ const Header = () => {
           <MenuIcon className='h-6 mr-1' />
           All
         </p>
-        <p className='link'>Prime Video</p>
-        <p className='link'>Amazon Business</p>
-        <p className='link'>Today &#39; s Deals</p>
-        <p className='hidden lg:inline-flex link '>Electronics</p>
-        <p className='hidden lg:inline-flex link '>Food & Grocery</p>
-        <p className='hidden lg:inline-flex link '>Prime</p>
-        <p className='hidden lg:inline-flex link '>Buy Again</p>
-        <p className='hidden lg:inline-flex link '>Shopper Toolkit</p>
-        <p className='hidden lg:inline-flex link '>Health & Personal Care</p>
+        <p className='link'>Web Dev</p>
+        <p className='link'>Frontend</p>
+        <p className='link'>Backend</p>
+        <p className='hidden lg:inline-flex link '>Full Stack</p>
+        <p className='hidden lg:inline-flex link '>ReactJs</p>
+        <p className='hidden lg:inline-flex link '>NodeJs</p>
+        <p className='hidden lg:inline-flex link '>Express</p>
+        <p className='hidden lg:inline-flex link '>Github</p>
+        <p className='hidden lg:inline-flex link '>MongoDB</p>
       </div>
     </header>
   );

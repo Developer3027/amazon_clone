@@ -16,14 +16,28 @@ function Banner() {
         <div className=''>
           <img
             loading='lazy'
-            src='https://dev3027public.s3.amazonaws.com/amazon_clone/Frame-1.svg'
+            src='https://dev3027public.s3.amazonaws.com/amazon_clone/react-frame.webp'
             alt='Amazon SAA Exam Notes'
           />
         </div>
         <div className=''>
           <img
             loading='lazy'
-            src='https://dev3027public.s3.amazonaws.com/amazon_clone/Frame+5.svg'
+            src='https://dev3027public.s3.amazonaws.com/amazon_clone/saa-frame-n.webp'
+            alt='Amazon SAA practice questions'
+          />
+        </div>
+        <div className=''>
+          <img
+            loading='lazy'
+            src='https://dev3027public.s3.amazonaws.com/amazon_clone/web-frame.webp'
+            alt='Amazon SAA practice questions'
+          />
+        </div>
+        <div className=''>
+          <img
+            loading='lazy'
+            src='https://dev3027public.s3.amazonaws.com/amazon_clone/saa-frame-e.webp'
             alt='Amazon SAA practice questions'
           />
         </div>
