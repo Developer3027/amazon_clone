@@ -3,7 +3,7 @@ import Product from './Product';
 
 function MainFeed({ products }) {
   return (
-    <div className='grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:-mt-28 md:-mt-20 mx-auto'>
+    <div className='grid grid-flow-row-dense xl:-mt-60 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:-mt-76 md:-mt-40 mx-auto'>
       {products
         .slice(0, 4)
         .map(({ id, title, price, description, category, image }) => (

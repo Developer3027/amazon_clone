@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.css';
@@ -15,29 +16,30 @@ function Banner() {
         interval={5000}>
         <div className=''>
           <img
+            className=''
             loading='lazy'
-            src='https://dev3027public.s3.amazonaws.com/amazon_clone/react-frame.webp'
+            src='https://dev3027public.s3.amazonaws.com/amz-a.jpg'
             alt='Amazon SAA Exam Notes'
           />
         </div>
         <div className=''>
           <img
             loading='lazy'
-            src='https://dev3027public.s3.amazonaws.com/amazon_clone/saa-frame-n.webp'
+            src='https://dev3027public.s3.amazonaws.com/amz-b.jpg'
             alt='Amazon SAA practice questions'
           />
         </div>
         <div className=''>
           <img
             loading='lazy'
-            src='https://dev3027public.s3.amazonaws.com/amazon_clone/web-frame.webp'
+            src='https://dev3027public.s3.amazonaws.com/amz-c.jpg'
             alt='Amazon SAA practice questions'
           />
         </div>
         <div className=''>
           <img
             loading='lazy'
-            src='https://dev3027public.s3.amazonaws.com/amazon_clone/saa-frame-e.webp'
+            src='https://dev3027public.s3.amazonaws.com/amz-d.jpg'
             alt='Amazon SAA practice questions'
           />
         </div>

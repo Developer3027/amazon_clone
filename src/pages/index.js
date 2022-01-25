@@ -4,7 +4,6 @@ import Banner from '../components/Banner';
 import MainFeed from '../components/MainFeed';
 
 export default function Home({ products }) {
-  console.log(products);
   return (
     <div className='bg-gray-100'>
       <Head>
